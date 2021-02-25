@@ -18,3 +18,11 @@
  * License:     GPL v2 or later
  * License URI: http://www.gnu.org/licenses/gpl-2.0.txt
  */
+
+
+ if( !defined('WPINC') ) {
+     die;
+ }
+
+ include_once('includes/metaboxes.php');
+ include_once('includes/enqueue-assets.php');
